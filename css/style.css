@@ -1,0 +1,153 @@
+body {
+  font-family: system-ui;
+  background-color: red;
+  color: black;
+  text-align: center;
+}
+
+.footer-colums {
+  display:flex;
+}
+
+.footer-colums {
+  flex:50%;
+  margin: 20px;
+}
+
+.post{
+background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display:flex;
+}
+
+.post img {
+  margin: 20px;
+}
+
+
+
+/* Стили для главной страницы */
+main h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+/* Стили для заголовков */
+h1 {
+  font-size: 36px;
+  font-weight: bol/* Общие стили */
+
+header {
+ 
+  color:white;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Стили для главной страницы */
+main h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Стили для страницы "О нас" */
+/* ... */
+
+/* Стили для страницы "Услуги" */
+/* ... */
+
+/* Стили для страницы "Контакты" */
+/* ... */
+;
+  color: red;
+  }
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+}
+
+/* Стили для кнопок */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+/* Стили для фона */
+body {
+  background-color: red;
+}
+
+/* Стили для меню */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #666666;
+}
